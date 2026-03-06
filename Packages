@@ -6,10 +6,10 @@ Author: VCam2026
 Maintainer: VCam2026
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 7.0.0
-Installed-Size: 572
-Filename: debs/com.vcamplus.tweak_7.0.0_iphoneos-arm64.deb
-Size: 344062
-MD5sum: a3b1a60f93f4ae46ea3f56ece51ec7d6
-SHA256: ef6f4107d1f3a36717b690f02c8913f56b0d359648cfa998c1772ba5f262efd2
+Version: 7.0.1
+Installed-Size: 588
+Filename: debs/com.vcamplus.tweak_7.0.1_iphoneos-arm64.deb
+Size: 349824
+MD5sum: 9b2d2c42aea695df51b8f7afdc46ceb6
+SHA256: b262881660881ee7f22d21400b912444c6dff614fb7d9731371b41bfb40476ca
 
