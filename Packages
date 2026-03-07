@@ -9,6 +9,6 @@ Architecture: iphoneos-arm64
 Version: 7.0.1
 Installed-Size: 588
 Filename: debs/com.vcamplus.tweak_7.0.1_iphoneos-arm64.deb
-Size: 368274
-MD5sum: d53e4c55f4495f6ee46ab78c843b1c5e
-SHA256: 554e7c29f1da56d9ce900498985f98aa432a86b92ff9591af99a1aff7e344774
+Size: 368950
+MD5sum: 88dcb32b0e1b5e94be3fbe26dbafa622
+SHA256: 631f5506c6713d3042d2f57d97492cb7874c50970cac7c60b61713b626233dc1
