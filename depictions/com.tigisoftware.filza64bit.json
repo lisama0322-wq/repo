@@ -1,0 +1,107 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "",
+  "tintColor": "#0af",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Filza 文件管理器 - Rootless",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 功能介绍\n\nFilza 是 iOS 上最强大的文件管理器，支持浏览、编辑系统文件，是越狱用户的必备工具。\n\n### 主要功能\n- 完整的文件浏览与管理\n- 内置文本编辑器、图片查看器、媒体播放器\n- 支持 zip/tar/gz/7z/rar 等压缩格式\n- 支持 Root 权限文件操作\n- 内置 WebDAV 服务器\n- 支持 HEX 编辑器\n- 支持安装 deb 包\n\n### 兼容性\n- iOS 15 ~ iOS 16\n- Dopamine rootless 越狱\n- 架构：arm64 / arm64e",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "注意事项",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 本版本为 Rootless 版，仅适用于 Dopamine 越狱\n- 与旧版 Filza（com.tigisoftware.filza）冲突，请先卸载旧版\n- 建议搭配 zip、unzip、p7zip 等工具使用",
+          "useSpacing": true
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "版本记录",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "版本更新",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v4.0.1-3",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Rootless 适配版本\n- 支持 iOS 15 ~ iOS 16 Dopamine 越狱\n- 基于官方 Filza 4.0.1",
+          "useSpacing": true
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "版本信息",
+      "views": [
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "4.0.1-3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统兼容",
+          "text": "iOS 15 ~ iOS 16"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱类型",
+          "text": "Dopamine (rootless)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "arm64 / arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者",
+          "text": "TIGI Software"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "官方网站",
+          "action": "https://tigisoftware.com/cydia/",
+          "openExternal": true
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
