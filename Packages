@@ -1,7 +1,7 @@
 Package: com.vcamplus.tweak
 Name: 虚拟相机V7
-Depends: firmware (>= 15.0), ellekit
-Description: 目前只支持ios15-ios16的Dopamine rootless 越狱
+Depends: firmware (>= 15.0)
+Description: 目前只支持ios15-ios16的Dopamine rootless 越狱，请先单独安装ElleKit后再安装本插件，不要同时安装！
 Author: VCam2026
 Maintainer: VCam2026
 Section: Tweaks
@@ -9,6 +9,6 @@ Architecture: iphoneos-arm64
 Version: 7.0.2
 Installed-Size: 588
 Filename: debs/com.vcamplus.tweak_7.0.2_iphoneos-arm64.deb
-Size: 369278
-MD5sum: 1c7b8d3cb9fbfc72fc8dea82f3c86fa6
-SHA256: ff57d6a3b5d05ec576858fd6c6a6973ac5cb308fad23970da74671a097694ff6
+Size: 370142
+MD5sum: b469239c518931aabe7495ae08efe0bc
+SHA256: 8040e24e122c57c2609f79899d4f2dc843ca3cba05f1a9ac561372a74c23be59
