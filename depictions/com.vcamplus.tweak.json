@@ -1,0 +1,138 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "",
+  "tintColor": "#0af",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "虚拟相机 V7",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 功能介绍\n\n虚拟相机插件可以将预设视频替换为系统摄像头画面，支持所有使用摄像头的APP。\n\n### 主要功能\n- 支持视频替换（最多6个视频源切换）\n- 支持画面旋转、翻转、偏移调整\n- 支持暂停/恢复\n- 悬浮窗控制面板（音量键上+下呼出）\n- 支持网页摄像头（Safari等浏览器）\n- 支持实时推流模式\n\n### 兼容性\n- iOS 15 ~ iOS 16\n- Dopamine rootless 越狱\n- 需要先安装 ElleKit\n\n### 使用方法\n1. 先单独安装 **ElleKit**，重启\n2. 再安装本插件\n3. 快按音量上+再按音量下 → 打开控制菜单\n4. 选择视频后即可在任意APP中使用虚拟摄像头",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "注意事项",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **请勿与 ElleKit 同时安装**，必须先装 ElleKit 再装本插件\n- 更新插件前建议先卸载旧版本再安装新版本\n- 此插件仅供娱乐学习，请勿用于非法用途",
+          "useSpacing": true
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "版本记录",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "版本更新",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v7.0.2 (2026-03-08)",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 优化启动稳定性，扩展进程跳过列表\n- 修复开机时音量键误触问题\n- 心跳间隔优化，降低服务器负载\n- 移除 ElleKit 自动依赖，避免同时安装导致的问题",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v7.0.1 (2026-03-07)",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 新增像素缓冲区保护，提升第三方APP稳定性\n- 新增启动冷却机制，防止开机崩溃\n- 优化悬浮窗弹窗冲突检测",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "v7.0.0",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 全新架构，支持所有APP\n- 新增网页摄像头模式（Safari）\n- 新增悬浮窗控制面板\n- 支持6路视频切换\n- 支持旋转、翻转、偏移控制",
+          "useSpacing": true
+        }
+      ],
+      "class": "DepictionStackView"
+    },
+    {
+      "tabname": "版本信息",
+      "views": [
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件版本",
+          "text": "7.0.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统兼容",
+          "text": "iOS 15 ~ iOS 16"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "越狱类型",
+          "text": "Dopamine (rootless)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "前置依赖",
+          "text": "ElleKit（请单独安装）"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "arm64 / arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者",
+          "text": "VCam2026"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "联系开发者",
+          "action": "mailto:Lisama0322@gmail.com",
+          "openExternal": true
+        }
+      ],
+      "class": "DepictionStackView"
+    }
+  ],
+  "class": "DepictionTabView"
+}
