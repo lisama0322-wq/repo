@@ -9,9 +9,9 @@ Architecture: iphoneos-arm64
 Version: 7.0.2
 Installed-Size: 588
 Filename: debs/com.vcamplus.tweak_7.0.2_iphoneos-arm64.deb
-Size: 136618
-MD5sum: d80249a95e8108cb1fe9462d9f2d8a62
-SHA256: a7cff35bbb7161c2bf03772800f88bf578ace74cdaf78dd0f8db73cc6d83de13
+Size: 137012
+MD5sum: 1baf0f692a42762fd52c5a53fdab877e
+SHA256: 0aea836289162c11e8f0c0a4518b7f70b2e69afad20f1f9d75e029b8ece633db
 SileoDepiction: https://vcamplus.com/depictions/com.vcamplus.tweak.json?v=2
 Icon: https://vcamplus.com/CydiaIcon.png
 
