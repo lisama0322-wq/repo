@@ -30,8 +30,16 @@
           "useBottomMargin": false
         },
         {
+          "class": "DepictionLabelView",
+          "text": "请勿与 ElleKit 同时安装，必须先装 ElleKit 再装本插件，已经装过 ElleKit 请忽略",
+          "textColor": "#FF0000",
+          "fontWeight": "bold",
+          "fontSize": 15,
+          "useMargins": true
+        },
+        {
           "class": "DepictionMarkdownView",
-          "markdown": "- <span style='color:#FF0000;font-weight:bold'>请勿与 ElleKit 同时安装，必须先装 ElleKit 再装本插件，已经装过 ElleKit 请忽略</span>\n- 更新插件前建议先卸载旧版本再安装新版本\n- 此插件仅供娱乐学习，请勿用于非法用途",
+          "markdown": "- 更新插件前建议先卸载旧版本再安装新版本\n- 此插件仅供娱乐学习，请勿用于非法用途",
           "useSpacing": true
         }
       ],
