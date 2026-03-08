@@ -1,7 +1,7 @@
 Package: com.vcamplus.tweak
 Name: 虚拟相机V7
-Depends: firmware (>= 15.0), ellekit
-Description: 目前只支持ios15-ios16的Dopamine rootless 越狱
+Depends: firmware (>= 15.0)
+Description: 目前只支持ios15-ios16的Dopamine rootless 越狱，请先单独安装ElleKit后再安装本插件，不要同时安装！
 Author: VCam2026
 Maintainer: VCam2026
 Section: Tweaks
